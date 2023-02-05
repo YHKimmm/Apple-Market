@@ -7,8 +7,10 @@ const postRoutes = require('./routes/post')
 const userRoutes = require('./routes/user');
 const commentRoutes = require('./routes/comment');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT
 app.use(express.json());
+
+
 app.use('/api/post', postRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/comment', commentRoutes);
