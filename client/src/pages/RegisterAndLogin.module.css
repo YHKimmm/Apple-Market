@@ -1,0 +1,134 @@
+.register,
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.register form,
+.login form {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.register label,
+.login label {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.register input[type="name"],
+.register input[type="text"],
+.login input[type="text"],
+.register input[type="email"],
+.login input[type="email"],
+.register input[type="password"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.register input[type="name"]:focus,
+.register input[type="text"]:focus,
+.login input[type="text"]:focus,
+.register input[type="email"]:focus,
+.login input[type="email"]:focus,
+.register input[type="password"]:focus,
+.login input[type="password"]:focus {
+  outline: none;
+  border-bottom: 2px solid #4caf50;
+}
+
+.register button[type="submit"],
+.login button[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.register button[type="submit"]:hover,
+.login button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.register p,
+.login p {
+  color: rgb(255, 85, 84);
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login span {
+  margin-top: 18px;
+}
+
+.login span a {
+  color: #4caf50;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  .register form,
+  .login form {
+    width: 90%;
+  }
+
+  .register label,
+  .login label {
+    font-size: 0.9rem;
+  }
+
+  .register input[type="name"],
+  .register input[type="text"],
+  .login input[type="text"],
+  .register input[type="email"],
+  .login input[type="email"],
+  .register input[type="password"],
+  .login input[type="password"] {
+    font-size: 0.9rem;
+  }
+
+  .register button[type="submit"],
+  .login button[type="submit"] {
+    font-size: 0.9rem;
+  }
+
+  .register p,
+  .login p {
+    font-size: 0.9rem;
+  }
+
+  .login span a {
+    font-size: 0.9rem;
+  }
+
+  .login span {
+    font-size: 0.9rem;
+  }
+}

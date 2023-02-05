@@ -1,0 +1,90 @@
+.profile__form {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* profile image */
+.profile__form label {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.profile__form label:hover {
+  transform: scale(1.05);
+}
+
+.profile__form label img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* profile image input */
+.profile__form input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* profile name */
+.profile__form h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+/* profile email */
+.profile__form h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* save button */
+.profile__form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile__form button:hover {
+  background-color: #3e8e41;
+  transform: scale(1.1);
+}
+
+.profile__form button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 480px) {
+  .profile__form h2 {
+    font-size: 1.1rem;
+  }
+  .profile__form h3 {
+    font-size: 0.9rem;
+  }
+  .profile__form button {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}

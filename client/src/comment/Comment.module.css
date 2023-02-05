@@ -1,0 +1,137 @@
+.comment__form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.comment__form form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-template-rows: 50px;
+  margin-top: 2em;
+}
+
+.comment__form input {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  transition: all 0.2s ease-in-out;
+  margin-right: 10px;
+}
+
+.comment__form button {
+  background-color: rgb(255, 85, 84);
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+  height: 100%;
+}
+
+.comment__lists {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3em;
+  font-size: 1rem;
+  color: #666;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03), 0px 7.5px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+  border-radius: 12px;
+}
+
+.comment__lists button {
+  margin: 0.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.user__description {
+  display: flex;
+  align-items: center;
+}
+
+.user__info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user__info p {
+  margin-left: 10px;
+}
+
+.edit__comment {
+  display: flex;
+  margin-top: 1em;
+}
+
+.edit__comment input {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  transition: all 0.2s ease-in-out;
+  margin-right: 10px;
+}
+
+.edit__comment button:hover {
+  background-color: #20c997;
+  color: white;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 12px;
+}
+
+@media (max-width: 480px) {
+  .comment__form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comment__form input {
+    margin-bottom: 10px;
+  }
+
+  .comment__form button {
+    padding: 10px;
+  }
+
+  .user__info img {
+    width: 40px;
+    height: 40px;
+  }
+  .user__info h4 {
+    font-size: 0.8rem;
+  }
+  .user__info p {
+    font-size: 0.8rem;
+  }
+  .user__info button {
+    font-size: 1rem;
+    margin: 0.3rem;
+  }
+  .edit__comment input {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+  }
+  .edit__comment button {
+    padding: 8px;
+    font-size: 0.75rem;
+  }
+  .edit__comment button:hover {
+    padding: 8px;
+    font-size: 0.75rem;
+  }
+}

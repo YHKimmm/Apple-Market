@@ -1,0 +1,13 @@
+.dropdown__container {
+  position: absolute;
+  top: 12%;
+  right: 2%;
+  margin-top: 2em;
+}
+
+@media (max-width: 760px) {
+  .dropdown__container {
+    top: 11%;
+    right: 2%;
+  }
+}
