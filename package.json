@@ -4,7 +4,7 @@
   "description": "This is a full stack e-commerce website built with MERN stack.",
   "main": "main.js",
   "scripts": {
-    "build": "cd server && npm install  && cd ../client && npm install && npm run build",
+    "build": "cd server && npm install  && cd ../client && npm install && vite build",
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
