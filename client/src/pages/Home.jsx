@@ -3,7 +3,7 @@ import styles from './Home.module.css'
 
 function Home() {
 
-  const imageFolderPath = import.meta.env.BASE_URL + "src/assets/images/";
+  const imageFolderPath = import.meta.env.BASE_URL + "public/";
 
 
   return (

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import MobileNavigation from "./MobileNavigation";
 
 
-const imageFolderPath = import.meta.env.BASE_URL + "src/assets/images/";
+const imageFolderPath = import.meta.env.BASE_URL + "public/";
 
 function Header() {
 
