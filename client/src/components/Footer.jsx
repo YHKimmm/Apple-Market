@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 import { getYear } from '../utilities/getDates'
 
 function Footer({ copyRight, author }) {
-    const imageFolderPath = import.meta.env.BASE_URL + "public/";
+    const imageFolderPath = import.meta.env.BASE_URL + "";
 
     return (
         <footer>
