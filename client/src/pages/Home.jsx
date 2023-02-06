@@ -1,11 +1,9 @@
 import React from 'react'
 import styles from './Home.module.css'
 
+const imageFolderPath = import.meta.env.BASE_URL + "";
+
 function Home() {
-
-  const imageFolderPath = import.meta.env.BASE_URL + "";
-
-
   return (
     <main className={styles.home__container}>
       <section className={styles.section__01}>
