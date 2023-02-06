@@ -8,7 +8,7 @@ function Footer({ copyRight, author }) {
     return (
         <footer>
             <img src={`${imageFolderPath}logo.jpg`} alt="footer logo img" className={styles.logo} />
-            <p>&copy; {copyRight} {author} all rights reserved</p>
+            <p>&copy; {copyRight} {author} all rights reserved.</p>
         </footer>
     )
 }
