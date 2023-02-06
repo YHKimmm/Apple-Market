@@ -42,12 +42,12 @@ function Home() {
             </div>
           </div>
           <div className={styles.home__reviewImg}>
-            <img src={`${imageFolderPath}img_review.webp`} alt="review img" />
+            <img src={`${imageFolderPath}img_review.png`} alt="review img" />
           </div>
         </div>
       </section>
       <section className={styles.section__03}>
-        <img src={`${imageFolderPath}img_free.avif`} alt="free img" />
+        <img src={`${imageFolderPath}img_free.png`} alt="free img" />
         <div className={styles.home__subContent}>
           <h3>It's free!</h3>
           <p>We don’t charge you to enjoy apple market.</p>
