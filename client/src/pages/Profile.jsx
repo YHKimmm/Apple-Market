@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import firebase from '../firebaseConfig'
 import styles from './Profile.module.css'
-// import Avatar from 'react-avatar';
+import Avatar from 'react-avatar';
 import { useDispatch } from 'react-redux'
 import { updateUserImage } from '../reducer/userSlice'
 
@@ -73,11 +73,11 @@ function Profile() {
                         style={{ display: "none" }}
                         onChange={(e) => imageUpload(e)}
                     />
-                    {/* {user.isLoading && currentUser ? (<Avatar size="200"
+                    {user.isLoading && currentUser ? (<Avatar size="200"
                         round={true}
                         src={`/api/post/image?imagePath=${userProfileImage || currentUser.multiFactor.user.photoURL}`}
                         alt="image"
-                        style={{ cursor: "pointer" }} />) : null} */}
+                        style={{ cursor: "pointer" }} />) : null}
                 </label>
                 <h2 type="text" name="name" >{currentUser && (user.displayName || currentUser.multiFactor.user.displayName)}</h2>
                 <h3 type="email" name="email" > {user.email} </h3>
