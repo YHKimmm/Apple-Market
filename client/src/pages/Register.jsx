@@ -32,7 +32,7 @@ function Register() {
 
         await createdUser.user.updateProfile({
             displayName: name,
-            photoURL: 'images\\default-image.jpg',
+            photoURL: 'https://github.com/YHKimmm/applemarket-aws/blob/main/images/default-image.jpg?raw=true',
         });
 
         await createdUser.user.sendEmailVerification();
@@ -44,7 +44,7 @@ function Register() {
             displayName: createdUser.user.multiFactor.user.displayName,
             email: createdUser.user.multiFactor.user.email,
             uid: createdUser.user.multiFactor.user.uid,
-            photoURL: 'images\\default-image.jpg',
+            photoURL: 'https://github.com/YHKimmm/applemarket-aws/blob/main/images/default-image.jpg?raw=true',
         };
 
 

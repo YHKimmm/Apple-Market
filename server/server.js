@@ -6,32 +6,22 @@ const mongoose = require('mongoose');
 const postRoutes = require('./routes/post')
 const userRoutes = require('./routes/user');
 const commentRoutes = require('./routes/comment');
-// const cors = require('cors')
 
 const app = express();
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// app.use(cors({
-//     origin: ['http://localhost:5173',
-//         "https://apple-market.onrender.com"]
-// }))
 
-app.get('/', (req, res) => {
-    res.send('hello world')
-})
+app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use('/api/post', postRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/comment', commentRoutes);
 
 
-const _dirname = path.resolve()
-
-
-app.use(express.static(path.join(_dirname, '/client/dist')));
 app.get('*', (req, res) =>
-    res.sendFile(path.join(_dirname, '/client/dist/index.html'))
+    res.sendFile(path.join(__dirname, 'dist/index.html'))
 );
 
 mongoose.set("strictQuery", false);
