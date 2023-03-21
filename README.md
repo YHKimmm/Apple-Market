@@ -41,4 +41,4 @@ http://34.216.78.53/
 
 ## Preview
 
-![chrome_E5OofbRm30](https://im.ezgif.com/tmp/ezgif-1-9a86016686.png)
+![apple-market image](https://user-images.githubusercontent.com/102700164/226548269-fd381ac6-c8d0-4da3-bb51-25265673b085.png)
