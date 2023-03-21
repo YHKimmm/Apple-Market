@@ -6,11 +6,7 @@ Apple Market is an online marketplace application where users can browse and pos
 
 ## Tech Stack
 
-[![React](https://img.shields.io/badge/React-16-blue)](https://reactjs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4-green)](https://www.mongodb.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-16-green)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-4-blue)](https://expressjs.com/)
-[![Express](https://img.shields.io/badge/Express-4-blue)](https://expressjs.com/)
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4-green?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-16-green?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-9-orange?style=flat-square&logo=firebase&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
 
 ## Features
 
