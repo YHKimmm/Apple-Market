@@ -1,2 +1,48 @@
-# Apple-Market
-# market-test
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=header&text=Apple%Market&fontSize=70&animation=twinkling)
+
+## Apple Market
+
+Apple Market is an online marketplace application where users can browse and post used items for sale, update their profiles, and make comments on posts. The app is built with React, Node.js, Express, and MongoDB, and uses Firebase for user authentication.
+
+## Tech Stack
+
+[![React](https://img.shields.io/badge/React-16-blue)](https://reactjs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4-green)](https://www.mongodb.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-16-green)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4-blue)](https://expressjs.com/)
+[![Express](https://img.shields.io/badge/Express-4-blue)](https://expressjs.com/)
+
+## Features
+
+- Post items and view them sorted by popularity, newest, and price
+- Leave comments on each posted item
+- Manage profile page
+- User authentication and authorization using Firebase Auth
+- RESTful API with Node.js and Express
+- MongoDB for data storage and handling
+- User-friendly interface built using React
+- Deployed the web application using AWS EC2 instance
+
+## Getting started
+
+1. Clone the repository
+
+2. Install the dependencies:
+
+```
+  npm install
+```
+
+3. Start the development server:
+
+```
+  npm run dev
+```
+
+## Demo
+
+http://34.216.78.53/
+
+## Preview
+
+![chrome_E5OofbRm30](https://im.ezgif.com/tmp/ezgif-1-9a86016686.png)
