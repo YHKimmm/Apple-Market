@@ -2,7 +2,7 @@
 
 ## Apple Market
 
-Apple Market is an online marketplace application where users can browse and post used items for sale, update their profiles, and make comments on posts. The app is built with React, Node.js, Express, and MongoDB, and uses Firebase for user authentication.
+Apple Market is an online marketplace application where users can browse and post used items for sale, update their profiles, and make comments on posts. The app is built with React, Node.js, Express, and MongoDB, and Firebase for manage user authentication.
 
 ## Tech Stack
 
