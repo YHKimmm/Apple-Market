@@ -1,5 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=header&text=Apple%Market&fontSize=70&animation=twinkling)
-
 ## Apple Market
 
 Apple Market is an online marketplace application where users can browse and post used items for sale, update their profiles, and make comments on posts. The app is built with React, Node.js, Express, and MongoDB, and Firebase for manage user authentication.
